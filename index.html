@@ -2,6 +2,37 @@
 <head>
 <title>BREE SERIF</title>
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+<style>
+.blink {
+  width: 100%;
+  height: 100%;
+  background-color: #056;
+  padding: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+span {
+  font-size: 300px;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  animation: blink 0.75s linear infinite;
+  line-height: 100%;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+</style>
 </head>
 <body>
 <div class="blink"><span>BREE SERIF</span></div>
